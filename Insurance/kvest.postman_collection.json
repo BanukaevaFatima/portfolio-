@@ -391,11 +391,16 @@
 					"urlencoded": []
 				},
 				"url": {
-					"raw": "cake{{agreement_id}}/results/TEST_COMPANY",
+					"raw": "https://partner.agentapp.ru/v1/{{agreement_id}}/results/TEST_COMPANY",
+					"protocol": "https",
 					"host": [
-						"cake{{agreement_id}}"
+						"partner",
+						"agentapp",
+						"ru"
 					],
 					"path": [
+						"v1",
+						"{{agreement_id}}",
 						"results",
 						"TEST_COMPANY"
 					]
